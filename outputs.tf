@@ -5,3 +5,7 @@ output "bucket_name" {
 output "bucket_arn" {
   value = module.learning_bucket.bucket_arn
 }
+
+output "instance_id" {
+  value = aws_instance.learning.id
+}
